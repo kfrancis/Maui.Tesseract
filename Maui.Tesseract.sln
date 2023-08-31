@@ -5,11 +5,18 @@ VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maui.Tesseract", "src\Maui.Tesseract\Maui.Tesseract.csproj", "{81A95EBA-0B2C-4884-97BE-93AE559D64F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maui.Tesseract.Droid", "src\Maui.Tesseract.Droid\Maui.Tesseract.Droid.csproj", "{A17A07E2-98D2-4D09-9946-4AB2C8CDEF6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maui.Tesseract.Droid", "src\Maui.Tesseract.Droid\Maui.Tesseract.Droid.csproj", "{A17A07E2-98D2-4D09-9946-4AB2C8CDEF6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maui.Tesseract.iOS", "src\Maui.Tesseract.iOS\Maui.Tesseract.iOS.csproj", "{89D38203-A33D-4F6F-B0C9-F22F06FF398B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maui.Tesseract.iOS", "src\Maui.Tesseract.iOS\Maui.Tesseract.iOS.csproj", "{89D38203-A33D-4F6F-B0C9-F22F06FF398B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiTesseract.TestApp", "test\MauiTesseract.TestApp\MauiTesseract.TestApp.csproj", "{CA58099B-BB1D-474E-82CB-8E8F64886618}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{162B28A8-9277-49B4-8783-D454F38930F4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
